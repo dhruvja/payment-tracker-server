@@ -31,6 +31,7 @@ SECRET_KEY = 'django-insecure-6v5kymx7mtc_%^^4x7&k59*2lxtoy=evux@-feg-^q%b!79ciq
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS=['https://*.payment-tracker-server-production.up.railway.app/','https://*.127.0.0.1']
 
 
 # Application definition
