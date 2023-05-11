@@ -78,17 +78,17 @@ WSGI_APPLICATION = 'payment_tracker.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'payment_tracker',
-        'USER': 'root',
-        'PASSWORD': 'password',
-        'HOST': 'localhost'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'payment_tracker',
+#         'USER': 'root',
+#         'PASSWORD': 'password',
+#         'HOST': 'localhost'
+#     }
+# }
 
-DATABASES = {'default': dj_database_url.parse('postgres://smart_4feu_user:CmmbVsRWKdU6R5bItZd2sbKBQLgk4QSD@dpg-chafe8m7avj5o4b1d2ig-a.singapore-postgres.render.com/smart_4feu')}
+DATABASES = {'default': dj_database_url.parse('postgres://payment_tracker_user:viFBwcb9VxtcYS6uE0jGCNWVEnUkinNZ@dpg-chekc7m7avj55m4jbpa0-a.singapore-postgres.render.com/payment_tracker')}
 
 
 # Password validation
