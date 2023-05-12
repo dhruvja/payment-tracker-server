@@ -6,6 +6,7 @@ class Payment(models.Model):
     name = models.CharField(max_length=255)
     amount = models.IntegerField()
     notes = models.TextField(blank=True, null=True)
+    payment_mode = models.CharField(max_length=255)
     payment_date = models.DateField()
     created_date = models.DateField(auto_now_add=True)
 
